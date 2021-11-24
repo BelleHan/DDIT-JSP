@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+	<error-page>
+		<error-code>500</error-code>
+		<location>/500.jsp</location>
+	</error-page>
+	
+	<error-page>
+		<exception-type>java.lang.ArithmeticException</exception-type>
+		<location>/arithmetic.jsp</location>
+	</error-page>
+
+</web-app>
